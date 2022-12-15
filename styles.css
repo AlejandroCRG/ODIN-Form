@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif, cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    gap: 30px;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.inputs{
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+}
+
+input{
+    border-style: none;
+    display: block;
+    width: 250px;
+    height: 25px;
+    border: solid #450047bd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form-label{
+    font-size: 15px;
+    letter-spacing: .2rem;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+img {
+    width: 35vw;
+    height: 100vh;
+    object-fit: cover;
+}
