@@ -15,25 +15,52 @@
         <img src="/odinforms.jpg" alt="">
     </div>
     <div class="form">
+        <h1 class="title">CODEBOOK</h1>
         <div class="form_info"><h1>CodeBook is a social media for all coders who want a (not so formal) interface to interact with other coders! It's mainly for memes and fun stuff, don't come here to try to be serious, we need some comedy in this industry.</h1>
         <h1>I know you want to.</h1>
         </div>
         <div class="form">
             <form action="">
-                <h1>Let's do this</h1>
-                <div class="inputs">
-                    <div class="first-name">
-                        <label for="first-name" class="form-label">FIRST NAME *</label>
-                        <input type="text" class="form-input" id="first-name" placeholder="Ben">
+                <div class="inputscontainer">
+                    <h1>Let's do this</h1>
+                    <div class="inputs">
+                        <div class="inputsspacing">
+                            <label for="first-name" class="form-label">FIRST NAME *</label>
+                            <input type="text" class="form-input" id="first-name" placeholder="Ben" required>
+                        </div>
+                        <div class="inputsspacing">
+                            <label for="last-name" class="form-label">LAST NAME *</label>
+                            <input type="text" class="form-input" id="last-name" placeholder="Dover" required>
+                        </div>
                     </div>
-                    <div class="last-name">
-                        <label for="last-name" class="form-label">LAST NAME *</label>
-                        <input type="text" class="form-input" id="last-name" placeholder="Dover">
+                    <div class="inputs">
+                        <div class="inputsspacing">
+                            <label for="email" class="form-label">E-MAIL *</label>
+                            <input type="email" class="form-input" id="email" placeholder="kekw@domain.com" required>
+                        </div>
+                        <div class="inputsspacing">
+                            <label for="phone" class="form-label">PHONE NUMBER </label>
+                            <input type="text" class="form-input" id="phone" placeholder="640 96 65 56">
+                        </div>
+                    </div>
+                    <div class="inputs">
+                        <div class="inputsspacing">
+                            <label for="password" class="form-label">PASSWORD *</label>
+                            <input type="password" class="password" id="password" placeholder="********" required>
+                        </div>
+                        <div class="inputsspacing">
+                            <label for="reppassword" class="form-label">REPEAT PASSWORD *</label>
+                            <input type="password" class="form-input" id="reppassword" placeholder="********" required>
+                        </div>
                     </div>
                 </div>
+                <button>Create account</button>
             </form>
         </div>
-
+        <div class="login">
+            <div>Already have an account?</div>
+            <a href="">Log in</a>
+        </div>
     </div>
 </body>
 </html>

@@ -4,8 +4,31 @@ body{
     padding: 0;
     display: flex;
     background-color: black;
-    color: rgb(255, 255, 255);
+    color: rgba(185, 185, 185);
     gap: 30px;
+    align-items: center;
+}
+
+.title{
+    font-size: 120px; 
+    letter-spacing: -1px; 
+    background: linear-gradient(to right, rgba(247, 0, 255, 0.384), rgba(251, 255, 0, 0.808));
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    text-transform: uppercase; 
+    margin: 10px 0 24px; 
+    padding-bottom: 65px;
+}
+
+.form_info, form {
+    font-size: 12px;
+}
+
+.inputscontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .container{
@@ -19,14 +42,17 @@ body{
     gap: 70px;
 }
 
+
 input{
     border-style: none;
     display: block;
     width: 250px;
     height: 25px;
-    border: solid #450047bd;
-    border-radius: 5px;
+    border: 1px solid rgba(247, 0, 255, 0.384);
+    border-radius: 4px;
     font-size: 15px;
+    background-color: black;
+    color: rgba(185, 185, 185);
 }
 
 .form-label{
@@ -39,4 +65,33 @@ img {
     width: 35vw;
     height: 100vh;
     object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+button {
+    width: fit-content;
+    height: auto;
+    font-size: large;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 2.5px;
+    border-color: rgba(251, 255, 0, 0.808);
+    color: rgba(251, 255, 0, 0.808);
+    margin-top: 20px;
+}
+
+.login {
+    display: flex;
+    margin-top: 45px;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(251, 255, 0, 0.808);
 }
